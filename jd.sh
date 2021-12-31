@@ -17,8 +17,8 @@ PanelReboot=0
 PanelPort=5678
 CodeTable=(a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9)
 ## 链接
-url_shell=${JD_SHELL_URL:-https://gitee.com/highdimen/js_tool.git}
-url_scripts=${JD_SCRIPTS_URL:-https://gitee.com/highdimen/clone_scripts.git}
+url_shell=${JD_SHELL_URL:-https://github.com/demo2099/CronTool.git}
+url_scripts=${JD_SCRIPTS_URL:-https://github.com/demo2099/jd_jscripts.git}
 
 ## 目录
 ##dir_shell=${JD_DIR:-$(cd $(dirname $0); pwd)}
