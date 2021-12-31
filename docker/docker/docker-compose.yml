@@ -2,8 +2,8 @@ version: "3.0"
 services:
   # 第1个容器
   jd1:
-    image: jstool:latest  # 如果要从gitee更新脚本，则为：lan-tianxiang/jd_shell:gitee
-    container_name: jstool
+    image: cronpanel:latest  # 如果要从gitee更新脚本，则为：lan-tianxiang/jd_shell:gitee
+    container_name: cronpanel
     restart: always
     tty: true
     network_mode: "bridge"
