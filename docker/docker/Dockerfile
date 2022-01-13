@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 LABEL maintainer="Highdimen"
-ARG JS_TOOL_URL=https://github.com/demo2099/CronTool.git
+ARG JS_TOOL_URL=https://hub.fastgit.org/demo2099/CronTool.git
 ARG JS_TOOL_BRANCH=A1
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     LANG=zh_CN.UTF-8 \
